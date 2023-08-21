@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class TextFileReader {
     public static void main(String[] args) {
-        String filePath = "D:\\Work\\Home_Work_Java_Advanced\\Home_Work3_Java_Advanced\\src\\Task4\\com\\example\\textfile.txt"; // Шлях до вашого текстового файлу
+        String filePath = "textfile.txt";
 
         try {
             String fileContent = readFileContent(filePath);
